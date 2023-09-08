@@ -602,13 +602,34 @@
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal></div> -->
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <form class="modal-form" name="hero-form" novalidate autocomplete="on">
+          <div class="field">
+            <label for="user-name">Name</label>
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              required
+              value=""
+            />
+          </div>
+          <div class="field">
+            <label>
+              User email
+              <input type="email" name="user-email" id="" value="" />
+            </label>
+          </div>
+          <button type="submit">Send form</button>
+        </form>
       </div>
     </div>
     <script type="module" src="./js/modal.js"></script>
