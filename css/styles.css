@@ -424,6 +424,43 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-caption {
+  max-width: 360px;
+
+}
+
+/* Hero form styles */
+
+.modal-form {}
+
+.modal-form-label {}
+
+.modal-form-field {}
+
+.modal-form-input {}
+
+.modal-form-icon {}
+
+.modal-form-comment {}
+
+.modal-form-agreement {}
+
+.moda-form-checkbox {}
+
+.moda-form-checkbox-icon {}
+
+.modal-form-agreement-descr {}
+
+.modal-form-agreement-link {}
+
+.button {}
+
+.button-accent {}
+
+
+
+
+
 /* Section styles  */
 
 /* Princsples section*/
@@ -657,6 +694,8 @@ button {
   gap: 24px;
   margin-bottom: 72px;
 }
+
+
 
 /* Footer styles */
 
