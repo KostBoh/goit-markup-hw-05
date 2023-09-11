@@ -596,7 +596,7 @@ button {
 
 /* Cheked state */
 
-input[type='checkbox']:checked ~ .moda-form-checkbox {
+input[type='checkbox']:checked .moda-form-checkbox {
   background-color: var(--accent-hover-cl);
   border: none;
   fill: var(--foot-ic);
