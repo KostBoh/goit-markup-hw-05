@@ -603,6 +603,7 @@ input[type='checkbox']:checked .moda-form-checkbox {
   /* border-color: transparent; */
 }
 /* Focus state */
+
 input[type='checkbox']:focus-visible ~ .moda-form-checkbox {
   outline: 2px solid #4d5ae5;
   /* border-radius: 2px;
